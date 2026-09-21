@@ -20,4 +20,4 @@ The Phase is Design
 The BIM purpose required is analyse and to realise. 
 
 # BPMN
-<img src="./Images/diagram.svg">
+<img src="./diagram.svg">
