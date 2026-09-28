@@ -18,3 +18,10 @@ In this project would the purpose of the BIM be to gather information about the 
 For a better visualization of the processes done to solve this claim, a BPMN-diagram have been made. \
 First the claim would be checked and controlled whether or not its ok with the clients requirements. If it isn't then the BIM model would be investigated and to calculate the quantitative of the windows would be done by making a script. After identifying the amount. The data gathered would be exported to LCAbyg to make an LCA analysis. If the project is with the BR18 regulations. Then the project is done. 
 <img src="./diagram.svg">
+
+### Tool idea
+Our idea for an OpenBIM ifcOenSheel Tool would be something compact and manageable, in the industry Revit & DALUX is widely used and the most common program to work with BIM-models. The construction industry isn't very prone to change, so therefore our tool would take alot of inspiration from these programs both in front- & back-end.
+
+<img scr=".diagram2.svg">
+
+Our tool would be cheaper than the current state-of-the-art programs, therefor in regards to the business and societal value our tool would lower the cost of entry, making it more affordable to new or smaller companies, who doesn't have the same capital as larger and more established companies. 
