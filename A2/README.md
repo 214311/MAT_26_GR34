@@ -22,7 +22,7 @@ First the claim would be checked and controlled whether or not its ok with the c
 ### Tool idea
 Our idea for an OpenBIM ifcOenSheel Tool would be something compact and manageable, in the industry Revit & DALUX is widely used and the most common program to work with BIM-models. The construction industry isn't very prone to change, so therefore our tool would take alot of inspiration from these programs both in front- & back-end.
 
-<img scr="./diagram2.svg">
+<img src="./diagram2.svg">
 
 
 Our tool would be cheaper than the current state-of-the-art programs, therefor in regards to the business and societal value our tool would lower the cost of entry, making it more affordable to new or smaller companies, who doesn't have the same capital as larger and more established companies. 
