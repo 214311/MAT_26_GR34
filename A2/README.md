@@ -33,5 +33,5 @@ Since we are focusing on windows, they are physically placed in the exterior wal
 
 We need information such as, size, placement, thickness, materiales, and gernerally information which is stated in EPDs.
 
-### Appropriate software licence
+### Software licence
 We will use the GNU GPLv3 license.
