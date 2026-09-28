@@ -23,6 +23,9 @@ First the claim would be checked and controlled whether or not its ok with the c
 See highlighted BPMN-diagram below.
 <img src="./diagram2.svg">
 
+<img src="./diagram_A2d.svg">
+
+
 ### Tool idea
 Our idea for an OpenBIM ifcOenSheel Tool would be something compact and manageable, in the industry Revit & DALUX is widely used and the most common program to work with BIM-models. The construction industry isn't very prone to change, so therefore our tool would take alot of inspiration from these programs both in front- & back-end.
 
