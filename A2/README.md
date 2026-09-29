@@ -20,21 +20,25 @@ First the claim would be checked and controlled whether or not its ok with the c
 <img src="./diagram.svg">
 
 ### Scope the use case
-See highlighted BPMN-diagram below.
+The implementation of the scripts is happening at the fifth step of the BPMN-diagram and can be seen highlighted on the BPMN-diagram shown below.
 <img src="./diagram2.svg">
 
+With the help of the script and BIM-model it would be possible to calculate the dimensions of a specific window, the amount of windows and the sum of the length and width of all of the buildings. In the future it would also be able to separate indoor windows and outdoor windows. \
+With the gathered information it would afterwards be possible to get the sum of the area of all of the windows or specific windows. With this information it would afterwards be imported to LCAbyg where a finalized LCA would be made possible.
 <img src="./diagram_A2d.svg">
 
 
 ### Tool idea
-Our idea for an OpenBIM ifcOenSheel Tool would be something compact and manageable, in the industry Revit & DALUX is widely used and the most common program to work with BIM-models. The construction industry isn't very prone to change, so therefore our tool would take alot of inspiration from these programs both in front- & back-end.
+The idea for an OpenBIM ifcOpenSheel Tool would be something compact and manageable, in the industry Revit & DALUX is widely used and the most common program to work with BIM-models. The construction industry isn't very prone to change, so therefore our tool would take a lot of inspiration from these programs both in front- & back-end.
 
-Our tool would be cheaper than the current state-of-the-art programs, therefor in regards to the business and societal value our tool would lower the cost of entry, making it more affordable to new or smaller companies, who doesn't have the same capital as larger and more established companies. 
+The tool would be cheaper than the current state-of-the-art programs, therefor in regards to the business and societal value the tool would lower the cost of entry, making it more affordable to new or smaller companies, who doesn't have the same capital as larger and more established companies. 
 
 ### Information requirements
-Since we are focusing on windows, they are physically placed in the exterior walls, and to get a better overview over all the windows, its possible to make a script to isolate this information. Yes we know how to get it in ifcOpenShell
+Since the focus is on windows, they are physically placed in the exterior walls, and to get a better overview of all of the windows, its possible to make a script to isolate this information. \
+Even though the group know basic programming it is still known how to get it in ifcOpenShell.
 
-We need information such as, size, placement, thickness, materiales, and gernerally information which is stated in EPDs.
+For this to be possible there will be needed information on the, size, placement, thickness of the windows. This is necessary for implementing these results into LCAbyg where the EPDs comes into play and with those a final LCA would be made possible.
 
-### Software licence
-We will use the GNU GPLv3 license, because we strongly value sharing our work and making the product better.
+### Software license
+This is a script that would be great for every company. With the regulations changing all the time it is therefore necessary to also change the script and optimizing it. One of the Software license that does exactly that is the GNU GPLv3 license where it strongly value sharing the work and making the product as good as possible. 
+
