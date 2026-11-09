@@ -1,6 +1,7 @@
 # **Problem/Claim:**
-The tool addresses the challenge of calculating the U-Value of windows and glazing materials,
-which plays a crucial role in optimizing thermal insulation, daylight penetration, and energy efficiency in buildings.
+The tool addresses the challange aquired when trying to a comparaison of Windows from an old model compared to a new model of that same building.
+Used especially in renivation.    
+
 
 # **Source of the Problem:**
 This problem is detailed in the report titled *"CES_BLD_24_0_6_MEP"* (page 15),
