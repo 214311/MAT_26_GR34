@@ -22,58 +22,59 @@ Execute the Python script to calculate the total window area.
 Compare results for both of the files.
 
 ## **4. Output**
-Generate area of total window area.
+Generate area of total window area and dimensions for every window in the model. Here's how it would look: 
 
 --- OLD BUILDING ---
 
-TOTAL RESULTS
-Windows: 229
-Successful calculations: 172
-Geometry errors: 57
-Total window area: 329.537 m2
 
-WINDOW DIMENSION SUMMARY
-2 windows | 3.075 x 1.012 x 0.140 m | Area per window: 3.112 m2
-3 windows | 3.075 x 1.011 x 0.140 m | Area per window: 3.109 m2
-1 windows | 3.075 x 0.984 x 0.140 m | Area per window: 3.026 m2
-3 windows | 2.940 x 2.900 x 0.115 m | Area per window: 8.526 m2
-1 windows | 2.275 x 1.024 x 0.140 m | Area per window: 2.330 m2
-50 windows | 2.275 x 1.012 x 0.140 m | Area per window: 2.302 m2
-2 windows | 2.225 x 1.024 x 0.140 m | Area per window: 2.278 m2
-1 windows | 2.225 x 1.023 x 0.140 m | Area per window: 2.276 m2
-1 windows | 2.225 x 1.022 x 0.140 m | Area per window: 2.274 m2
-51 windows | 2.225 x 1.012 x 0.140 m | Area per window: 2.252 m2
-3 windows | 2.225 x 1.011 x 0.140 m | Area per window: 2.249 m2
-2 windows | 2.225 x 1.001 x 0.140 m | Area per window: 2.227 m2
-1 windows | 2.172 x 1.024 x 0.140 m | Area per window: 2.224 m2
-36 windows | 2.100 x 0.220 x 0.115 m | Area per window: 0.462 m2
-4 windows | 1.292 x 1.027 x 0.140 m | Area per window: 1.327 m2
-1 windows | 1.292 x 1.024 x 0.140 m | Area per window: 1.323 m2
-1 windows | 1.292 x 1.012 x 0.140 m | Area per window: 1.308 m2
-2 windows | 1.247 x 0.841 x 0.140 m | Area per window: 1.049 m2
-1 windows | 1.247 x 0.441 x 0.140 m | Area per window: 0.550 m2
-1 windows | 1.247 x 0.300 x 0.140 m | Area per window: 0.374 m2
-1 windows | 1.247 x 0.167 x 0.140 m | Area per window: 0.208 m2
-1 windows | 1.247 x 0.140 x 0.041 m | Area per window: 0.175 m2
-3 windows | 1.012 x 0.875 x 0.140 m | Area per window: 0.885 m2
+TOTAL RESULTS \
+Windows: 229 \
+Successful calculations: 172 \
+Geometry errors: 57 \
+Total window area: 329.537 m2 
 
+WINDOW DIMENSION SUMMARY \
+2 windows | 3.075 x 1.012 x 0.140 m | Area per window: 3.112 m2 \
+3 windows | 3.075 x 1.011 x 0.140 m | Area per window: 3.109 m2 \
+1 windows | 3.075 x 0.984 x 0.140 m | Area per window: 3.026 m2 \
+3 windows | 2.940 x 2.900 x 0.115 m | Area per window: 8.526 m2 \
+1 windows | 2.275 x 1.024 x 0.140 m | Area per window: 2.330 m2\
+50 windows | 2.275 x 1.012 x 0.140 m | Area per window: 2.302 m2\
+2 windows | 2.225 x 1.024 x 0.140 m | Area per window: 2.278 m2 \
+1 windows | 2.225 x 1.023 x 0.140 m | Area per window: 2.276 m2\
+1 windows | 2.225 x 1.022 x 0.140 m | Area per window: 2.274 m2\
+51 windows | 2.225 x 1.012 x 0.140 m | Area per window: 2.252 m2\
+3 windows | 2.225 x 1.011 x 0.140 m | Area per window: 2.249 m2\
+2 windows | 2.225 x 1.001 x 0.140 m | Area per window: 2.227 m2\
+1 windows | 2.172 x 1.024 x 0.140 m | Area per window: 2.224 m2\
+36 windows | 2.100 x 0.220 x 0.115 m | Area per window: 0.462 m2\
+4 windows | 1.292 x 1.027 x 0.140 m | Area per window: 1.327 m2\
+1 windows | 1.292 x 1.024 x 0.140 m | Area per window: 1.323 m2\
+1 windows | 1.292 x 1.012 x 0.140 m | Area per window: 1.308 m2\
+2 windows | 1.247 x 0.841 x 0.140 m | Area per window: 1.049 m2\
+1 windows | 1.247 x 0.441 x 0.140 m | Area per window: 0.550 m2\
+1 windows | 1.247 x 0.300 x 0.140 m | Area per window: 0.374 m2\
+1 windows | 1.247 x 0.167 x 0.140 m | Area per window: 0.208 m2\
+1 windows | 1.247 x 0.140 x 0.041 m | Area per window: 0.175 m2\
+3 windows | 1.012 x 0.875 x 0.140 m | Area per window: 0.885 m2\
+\
 --- NEW BUILDING ---
 
-TOTAL RESULTS
-Windows: 117
-Successful calculations: 117
-Geometry errors: 0
+TOTAL RESULTS\
+Windows: 117\
+Successful calculations: 117\
+Geometry errors: 0\
 Total window area: 613.664 m2
 
-WINDOW DIMENSION SUMMARY
-100 windows | 3.200 x 1.800 x 0.150 m | Area per window: 5.760 m2
-3 windows | 2.110 x 1.050 x 0.313 m | Area per window: 2.216 m2
+WINDOW DIMENSION SUMMARY\
+100 windows | 3.200 x 1.800 x 0.150 m | Area per window: 5.760 m2\
+3 windows | 2.110 x 1.050 x 0.313 m | Area per window: 2.216 m2\
 14 windows | 2.110 x 1.050 x 0.193 m | Area per window: 2.216 m2
 
---- COMPARISON ---
-Old window area: 329.537 m2
-New window area: 613.664 m2
-Difference: 284.126 m2
+--- COMPARISON ---\
+Old window area: 329.537 m2\
+New window area: 613.664 m2\
+Difference: 284.126 m2 \
 PS C:\Users\augus\AppData\Local\Programs\Microsoft VS Code> 
 
 # **Video tutorial**
