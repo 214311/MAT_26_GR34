@@ -1,35 +1,31 @@
-# **Problem/Claim:**
-The tool addresses the challange aquired when trying to a comparaison of Windows from an old model compared to a new model of that same building.
-Used especially in renivation.    
+# **Problem/Claim**
+The tool addresses the challenge that comes when trying to do a comparison of Windows from an old model compared to a new model of that same building.
+Used especially in renovation.    
 
+# **Source of the Problem**
+The main problem occurred when looking through old LCA reports of renovation projects of the building 308 at DTU-Lyngby done through the course "Advanced buildingdesign". It was easy to make an script returning the total square meter of windows used. The main difficulty was to get it to show the newly implemented windows. This has been done by comparing an ifc file of the old building with an ifc file of the new building. 
+By running this script it shows the difference in window area between the two files and therefore solves this problem.
 
-# **Source of the Problem:**
-This problem is detailed in the report titled *"CES_BLD_24_0_6_MEP"* (page 15),
-highlighting the importance of balancing thermal performance with daylight entry
-to achieve sustainable and energy-efficient design.
+# **Description of the Tool** 
+The tool is a Python-based OpenBIM ifcOpenShell solution designed to calculate the total window area for two ifc files and comparing the two files.
+It shows the total area of two ifc files. Preferably two renovation files. One showing the old building and one showing the new building. By comparing the two files it would therefore be able to show how many square meter of new window have been added and how many square meter window both of the files have in total.
+This can be used to make an easy LCA of the windows for the renovated building by implementing EPD's for the windows and multiplying with the desired impact category.
 
-# **Description of the Tool:** 
-The tool is a Python-based OpenBIM ifcOpenShell solution designed to calculate U-Values
-for windows and glazing systems. It simulates the impact of these properties on daylight
-performance and energy efficiency, providing an open-source alternative for analysis in BIM environments. 
-By allowing interoperability, it promotes cost savings, process automation, and sustainability in design.
+# **Instructions to Run the Tool**
+## **1. Input Data**
+Import two IFC files, one containing the old building and one containing the renovated version of said building.
 
-# **Instructions to Run the Tool:**
-## **1. Input Data:**
-   - Import an IFC model containing window or glazing data and material properties into the Python environment.
+## **2. Run Script**
+Execute the Python script to calculate the total window area.
 
-## **2. Run Script:**
-   - Execute the Python script to calculate the U-Value and simulate daylight performance.
+## **3. Analyze Results**
+Compare results for both of the files.
 
-## **3. Analyze Results:**
-   - Compare results against energy efficiency standards and design objectives.
+## **4. Output**
+Generate area of total window area.
 
-## **4. Output:**
-   - Generate visualizations (e.g., graphs) and reports summarizing findings for decision-making.
-
-# **Advanced Building Design Stage:**
-The tool is most beneficial in **Stage B: Simulation and Analysis,
-where the performance of design choices is evaluated for energy efficiency and daylight optimization.
+# **Video tutorial**
+This tutorial goes more in depth as to what the script shows and how it runs.
 
 # **Subjects That Might Use the Tool:**
 - Architectural Design: For aesthetic and functional decisions related to building envelopes.  
@@ -38,8 +34,6 @@ where the performance of design choices is evaluated for energy efficiency and d
 - Lighting Design: To ensure sufficient daylight penetration while minimizing energy loss.
 
 # **Required Information for the Tool:**
-## **To calculate the U-Value and simulate daylight performance, the tool requires the following data:**
-- Thermal conductivity of materials (glass, frame, and gas).  
-- Type and number of glazing layers (e.g., double or triple glazing).  
-- Conductivity and Thickness of the glass and gaps between panes.    
-- Window or glazing system dimensions and geometry.  
+- ifc file for old building
+- ifc file for new building
+- 
