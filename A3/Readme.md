@@ -27,6 +27,10 @@ Generate area of total window area.
 # **Video tutorial**
 This tutorial goes more in depth as to what the script shows and how it runs.
 
+INSERT MP4 file
+
+
+
 # **Subjects That Might Use the Tool:**
 - LCA
 - LCC
