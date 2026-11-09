@@ -28,12 +28,12 @@ Generate area of total window area.
 This tutorial goes more in depth as to what the script shows and how it runs.
 
 # **Subjects That Might Use the Tool:**
-- Architectural Design: For aesthetic and functional decisions related to building envelopes.  
-- Building Physics: To assess thermal performance and energy efficiency.  
-- Energy Efficiency Analysis: To optimize material selection and comply with energy standards.  
-- Lighting Design: To ensure sufficient daylight penetration while minimizing energy loss.
+- LCA
+- LCC
+- MEP
+- Architect
 
 # **Required Information for the Tool:**
 - ifc file for old building
 - ifc file for new building
-- 
+- Newest version of OpenShell
