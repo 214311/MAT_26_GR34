@@ -80,7 +80,7 @@ PS C:\Users\augus\AppData\Local\Programs\Microsoft VS Code>
 # **Video tutorial**
 This tutorial goes more in depth as to what the script shows and how it runs.
 
-INSERT MP4 file
+https://www.youtube.com/watch?v=tR2jb077l6c
 
 
 
