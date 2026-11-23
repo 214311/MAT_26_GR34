@@ -1,2 +1,2 @@
 # Change this to your local IFC file. Keep the r before the quotes on Windows.
-MODEL_PATH = r"path to your ifc"
+MODEL_PATH = r"C:\Users\nk\OneDrive - Danmarks Tekniske Universitet\DTU - Backup\MSc\1. Semester\Advanced BIM\L4\25-08-D-ARCH.ifc"

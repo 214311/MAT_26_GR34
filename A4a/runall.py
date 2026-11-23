@@ -4,10 +4,10 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-from window_count.src.main import analyse as count_windows
+from window_GWP.src.main import analyse as analyse_glazing
 from settings import MODEL_PATH
 
-ANALYSES = {"window_count": count_windows}
+ANALYSES = {"window_GWP": analyse_glazing}
 
 
 def save_result(result, results_dir):
