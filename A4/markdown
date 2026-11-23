@@ -1,0 +1,59 @@
+### 01 Your tool - A Python script
+* Your `main.py` file. You can have multiple Python files, but then they should be imported as modules into the `main.py` script.
+
+### 02 The IFC model
+* Please do not upload the IFC model.
+
+### 03 A markdown file: 
+This is based on the Use Case Analysis you did in [A2].
+it should answer the following questions:
+#### About the tool
+* State the problem / claim that your tool is solving.
+* State where you found that problem.
+* Description of the tool
+* instructions to run the tool.
+#### Advanced Building Design
+* What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+* Which subjects might use it?
+* What information is required in the model for your tool to work?
+
+### 04 An IDS:
+* Produce an IDS to check that the model can be run by your tool.
+
+### Peer Presentation
+If you are not sure of what to include in your peer presentation, remember you are helping your peers to assess if your tool does what you intended. We suggest you to cover the following:
+
+#### 1. As is BPMN diagram
+This would include the diagram from A2 or an update of this describing how this is currently done
+
+#### 2. Aim
+State the aim of your tool
+
+#### 3. To be BPMN diagram
+This describes your proposed system / workflow.
+
+#### 4. Your tool
+Quick overview of the tool, think about the things you already all know, i.e. import ifcopenshell and try and focus on how you have solved the problem you found.
+
+#### 5. Output
+Present the output of your tool, (show your team that it does this)
+
+## Submission 2026
+Enrolled students submit on DTU Learn.
+
+<!--
+* Describe the use case you have chosen.
+* Who is the use case for?	
+* What disciplinary (non BIM) expertise do you use to solve the use case?
+* What IFC concepts do you need to use in your script (or would you use in the rest of the tool)?
+* What disciplinary analysis does it require?	
+* What building elements are you interested in?
+* What is the _input data_ for your use case?	
+* What (use cases) need to be done _before_ you can start your use case?
+* What other use cases are waiting for your use case to complete?
+-->
+
+
+
+
+<!--
